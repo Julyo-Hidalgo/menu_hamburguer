@@ -2,7 +2,6 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="menu_hamburguer_.MainPage">
-
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
             <Grid>
@@ -12,10 +11,10 @@
                 </Grid.RowDefinitions>
 
                 <StackLayout Grid.Row="1">
-                    <Button x:Name = "inicio" Text="Início" Clicked=/>
-                    <Button x:Name = "primeiro" Text="Primeiro Ano" Clicked=/>
-                    <Button x:Name = "segundo" Text="Segundo Ano" Clicked=/>
-                    <Button x:Name = "terceiro" Text="Terceiro Ano" Clicked=/>
+                    <Button x:Name = "inicio" Text="Início" />
+                    <Button x:Name = "primeiro" Text="Primeiro Ano" />
+                    <Button x:Name = "segundo" Text="Segundo Ano" />
+                    <Button x:Name = "terceiro" Text="Terceiro Ano" />
                 </StackLayout>
 
             </Grid>
@@ -23,9 +22,8 @@
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>
-      <NavigationPage>
-        
-      </NavigationPage>
+        <NavigationPage>
+
+        </NavigationPage>
     </MasterDetailPage.Detail>
-  
 </MasterDetailPage>
