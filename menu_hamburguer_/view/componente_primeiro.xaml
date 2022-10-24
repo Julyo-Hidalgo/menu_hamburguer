@@ -2,11 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="menu_hamburguer_.view.componente_primeiro">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    
+    <ListView Header="Componentes do Primeiro Ano">
+        <ListView.ItemSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>Análise e Projeto de Sistemas; </x:String>
+                <x:String>Banco de Dados I;</x:String>
+                <x:String> Design Digital </x:String>
+                <x:String>  Fundamentos da Informática </x:String>
+                <x:String>  Programação Web I </x:String>
+                <x:String>  Técnicas de Programação e Algoritmos </x:String>
+            <x:Array>
+        </ListView.ItemSource>
+    </ListView>
 </ContentPage>
