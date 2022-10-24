@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="menu_hamburguer_.view.componente_terceiro">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ListView Header="Componentes do Terceiro Ano">
+        <ListView.ItemSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String> Internet, Protocolos e Segurança de Sistemas da Informação </x:String>
+                <x:String>  Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de Sistemas (divisão de classes em turmas) </x:String>
+                <x:String>  Programação de Aplicativos Mobile II </x:String>
+                <x:String>  Programação Web III </x:String>
+                <x:String>  Qualidade e Teste de Software </x:String>
+            <x:Array>
+        </ListView.ItemSource>
+    </ListView>
 </ContentPage>
